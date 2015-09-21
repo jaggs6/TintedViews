@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TintedImageView">
+        <attr name="drawableColor" format="color"/>
+        <attr name="drawableHighlightColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TintedTextView">
+        <attr name="allDrawableColor" format="color"/>
+        <attr name="leftDrawableColor" format="color"/>
+        <attr name="topDrawableColor" format="color"/>
+        <attr name="rightDrawableColor" format="color"/>
+        <attr name="bottomDrawableColor" format="color"/>
+
+        <attr name="allDrawableHighlightColor" format="color"/>
+        <attr name="leftDrawableHighlightColor" format="color"/>
+        <attr name="topDrawableHighlightColor" format="color"/>
+        <attr name="rightDrawableHighlightColor" format="color"/>
+        <attr name="bottomDrawableHighlightColor" format="color"/>
+    </declare-styleable>
+
+</resources>

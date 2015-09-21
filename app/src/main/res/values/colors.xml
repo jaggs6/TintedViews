@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultTint">#000000</color>
+    <color name="defaultHighlightTint">#ff0000</color>
+
+    <color name="brandTint">#ffffff</color>
+    <color name="brandHighlightTint">#f4ce24</color>
+</resources>

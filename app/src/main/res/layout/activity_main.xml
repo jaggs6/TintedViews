@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <net.jaggs.tintedviews.view.BrandedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="xml"
+            app:allDrawableColor="@color/brandHighlightTint"
+            app:allDrawableHighlightColor="@color/brandTint"
+            app:leftDrawableColor="@color/brandTint"
+            app:leftDrawableHighlightColor="@color/brandHighlightTint"
+            app:rightDrawableColor="@color/brandTint"
+            app:rightDrawableHighlightColor="@color/brandHighlightTint"/>
+
+        <net.jaggs.tintedviews.view.BrandedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="brand"/>
+
+        <net.jaggs.tintedviews.view.TintedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <net.jaggs.tintedviews.view.BrandedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="xml"
+            app:allDrawableColor="@color/brandHighlightTint"
+            app:leftDrawableColor="@color/brandTint"
+            app:rightDrawableColor="@color/brandTint"/>
+
+        <net.jaggs.tintedviews.view.BrandedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="brand"/>
+
+        <net.jaggs.tintedviews.view.TintedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_arrow_down"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:drawableRight="@drawable/ic_play"
+            android:drawableStart="@drawable/ic_arrow_left"
+            android:drawableTop="@drawable/ic_arrow_up"
+            android:text="default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <net.jaggs.tintedviews.view.TintedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_add"
+            app:drawableColor="@color/brandHighlightTint"
+            app:drawableHighlightColor="@color/brandTint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="xml"/>
+
+        <net.jaggs.tintedviews.view.BrandedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_add"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="brand"/>
+
+        <net.jaggs.tintedviews.view.TintedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_add"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <net.jaggs.tintedviews.view.TintedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cross"
+            app:drawableColor="@color/brandHighlightTint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="xml"/>
+
+        <net.jaggs.tintedviews.view.BrandedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cross"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="brand"/>
+
+        <net.jaggs.tintedviews.view.TintedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cross"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="default"/>
+    </LinearLayout>
+
+</LinearLayout>
