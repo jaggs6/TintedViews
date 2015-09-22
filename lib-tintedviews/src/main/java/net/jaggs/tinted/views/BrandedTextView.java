@@ -1,8 +1,7 @@
-package net.jaggs.tintedviews.view;
+package net.jaggs.tinted.views;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import net.jaggs.tintedviews.R;
 
 public class BrandedTextView extends TintedTextView {
 

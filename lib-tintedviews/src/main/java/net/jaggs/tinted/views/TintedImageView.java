@@ -1,4 +1,4 @@
-package net.jaggs.tintedviews.view;
+package net.jaggs.tinted.views;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -10,9 +10,8 @@ import android.support.annotation.ColorInt;
 import android.util.AttributeSet;
 import android.view.ContextThemeWrapper;
 import android.widget.ImageView;
-import net.jaggs.tintedviews.R;
 
-import static net.jaggs.tintedviews.view.TintedViewUtils.*;
+import static net.jaggs.tinted.views.TintedViewUtils.*;
 
 public class TintedImageView extends ImageView {
 

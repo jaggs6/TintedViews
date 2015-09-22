@@ -1,4 +1,4 @@
-package net.jaggs.tintedviews;
+package net.jaggs.tintedviews.app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

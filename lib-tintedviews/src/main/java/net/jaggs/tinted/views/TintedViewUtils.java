@@ -1,11 +1,10 @@
-package net.jaggs.tintedviews.view;
+package net.jaggs.tinted.views;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorInt;
-import net.jaggs.tintedviews.R;
 
 public class TintedViewUtils {
 
