@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <net.jaggs.tintedviews.view.BrandedTextView
+        <net.jaggs.tinted.views.BrandedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -33,7 +33,7 @@
             app:rightDrawableColor="@color/brandTint"
             app:rightDrawableHighlightColor="@color/brandHighlightTint"/>
 
-        <net.jaggs.tintedviews.view.BrandedTextView
+        <net.jaggs.tinted.views.BrandedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -45,7 +45,7 @@
             android:drawableTop="@drawable/ic_arrow_up"
             android:text="brand"/>
 
-        <net.jaggs.tintedviews.view.TintedTextView
+        <net.jaggs.tinted.views.TintedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <net.jaggs.tintedviews.view.BrandedTextView
+        <net.jaggs.tinted.views.BrandedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableBottom="@drawable/ic_arrow_down"
@@ -77,7 +77,7 @@
             app:leftDrawableColor="@color/brandTint"
             app:rightDrawableColor="@color/brandTint"/>
 
-        <net.jaggs.tintedviews.view.BrandedTextView
+        <net.jaggs.tinted.views.BrandedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableBottom="@drawable/ic_arrow_down"
@@ -88,7 +88,7 @@
             android:drawableTop="@drawable/ic_arrow_up"
             android:text="brand"/>
 
-        <net.jaggs.tintedviews.view.TintedTextView
+        <net.jaggs.tinted.views.TintedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableBottom="@drawable/ic_arrow_down"
@@ -106,7 +106,7 @@
         android:orientation="horizontal">
 
 
-        <net.jaggs.tintedviews.view.TintedImageView
+        <net.jaggs.tinted.views.BrandedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -120,7 +120,7 @@
             android:layout_gravity="center"
             android:text="xml"/>
 
-        <net.jaggs.tintedviews.view.BrandedImageView
+        <net.jaggs.tinted.views.BrandedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -132,7 +132,7 @@
             android:layout_gravity="center"
             android:text="brand"/>
 
-        <net.jaggs.tintedviews.view.TintedImageView
+        <net.jaggs.tinted.views.TintedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -150,7 +150,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <net.jaggs.tintedviews.view.TintedImageView
+        <net.jaggs.tinted.views.BrandedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_cross"
@@ -162,7 +162,7 @@
             android:layout_gravity="center"
             android:text="xml"/>
 
-        <net.jaggs.tintedviews.view.BrandedImageView
+        <net.jaggs.tinted.views.BrandedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_cross"/>
@@ -173,7 +173,7 @@
             android:layout_gravity="center"
             android:text="brand"/>
 
-        <net.jaggs.tintedviews.view.TintedImageView
+        <net.jaggs.tinted.views.TintedImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_cross"/>

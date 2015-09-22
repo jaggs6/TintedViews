@@ -1,11 +1,11 @@
-package net.jaggs.tintedviews.view;
+package net.jaggs.tinted.views;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
 import android.util.AttributeSet;
 
-import static net.jaggs.tintedviews.view.TintedViewUtils.*;
+import static net.jaggs.tinted.views.TintedViewUtils.*;
 
 public class BrandedImageView extends TintedImageView {
 
