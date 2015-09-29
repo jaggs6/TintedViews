@@ -181,9 +181,17 @@ public class TintedTextView extends TextView {
 	private void updateTintColor() {
 		int stateColor = colorState.getColorForState(getDrawableState(), DEFAULT_TINT(getContext()));
 		Drawable[] compoundDrawables = getCompoundDrawables();
-		compoundDrawables[0].mutate().setColorFilter(makeTintedColorViaLayout(leftDrawableTint, leftHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
-		compoundDrawables[1].mutate().setColorFilter(makeTintedColorViaLayout(topDrawableTint, topHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
-		compoundDrawables[2].mutate().setColorFilter(makeTintedColorViaLayout(rightDrawableTint, rightHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
-		compoundDrawables[3].mutate().setColorFilter(makeTintedColorViaLayout(bottomDrawableTint, bottomHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
+		if (compoundDrawables[0] != null) {
+			compoundDrawables[0].mutate().setColorFilter(makeTintedColorViaLayout(leftDrawableTint, leftHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
+		}
+		if (compoundDrawables[1] != null) {
+			compoundDrawables[1].mutate().setColorFilter(makeTintedColorViaLayout(topDrawableTint, topHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
+		}
+		if (compoundDrawables[2] != null) {
+			compoundDrawables[2].mutate().setColorFilter(makeTintedColorViaLayout(rightDrawableTint, rightHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
+		}
+		if (compoundDrawables[3] != null) {
+			compoundDrawables[3].mutate().setColorFilter(makeTintedColorViaLayout(bottomDrawableTint, bottomHighlightDrawableTint, drawableTint, highlightDrawableTint, stateColor, getContext()), PorterDuff.Mode.SRC_IN);
+		}
 	}
 }
